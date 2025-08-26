@@ -10,5 +10,8 @@ namespace ECommerceApp.Domain.Entities
         public int ID { get; set; }
         public DateTime Date { get; set; }
         public decimal TotalPrice { get; set; }
+        public Customer Customer { get; set; }
+        public Payment Payment { get; set; }
+        public Shipment Shipment { get; set; }
     }
 }
